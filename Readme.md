@@ -16,8 +16,8 @@ To set up the project, follow these steps:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/adamramdaniyns/customer_service_ai.git
+cd customer_service_ai
 ```
 2. Install the required dependencies:
 ```bash
