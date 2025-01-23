@@ -52,3 +52,7 @@ The system uses sentence embeddings to represent both product data and user quer
 input_embedding = model.encode(user_query, convert_to_tensor=True)
 cosine_sim = util.pytorch_cos_sim(input_embedding, product_embeddings)
 ```
+
+**Customizing Product Data**
+
+The product data used by the chatbot can be easily replaced with your own dataset. The current product data is stored in the products variable. To update the product list, simply modify this file to include the products you want the chatbot to recognize and provide information about. Make sure to maintain the format of the product data for proper functionality.
