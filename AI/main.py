@@ -176,7 +176,8 @@ def agent_taking_order(prompt):
       # simpan data order pada database disini
       # disarankan menggunakan asynchronous agar response AI tidak tertahan.
       # code here
-      
+      print("I'm here...")
+
     return json_response
 
 def chat_customer_service(prompt):
