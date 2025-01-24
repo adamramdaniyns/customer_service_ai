@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "nama_produk": "Kompor Gas",
+        "deskripsi": "Kompor Gas berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1939427
+    },
+    {
+        "id": 2,
+        "nama_produk": "Lampu LED",
+        "deskripsi": "Lampu LED berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 892339
+    },
+    {
+        "id": 3,
+        "nama_produk": "Karpet Ruang Tamu",
+        "deskripsi": "Karpet Ruang Tamu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1026603
+    },
+    {
+        "id": 4,
+        "nama_produk": "Kursi Gaming",
+        "deskripsi": "Kursi Gaming berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 442128
+    },
+    {
+        "id": 5,
+        "nama_produk": "Microwave Oven",
+        "deskripsi": "Microwave Oven berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 213752
+    },
+    {
+        "id": 6,
+        "nama_produk": "Piring Keramik",
+        "deskripsi": "Piring Keramik berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1322146
+    },
+    {
+        "id": 7,
+        "nama_produk": "Lampu Gantung",
+        "deskripsi": "Lampu Gantung berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 597270
+    },
+    {
+        "id": 8,
+        "nama_produk": "Rak Buku",
+        "deskripsi": "Rak Buku berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1135766
+    },
+    {
+        "id": 9,
+        "nama_produk": "Bantal Sofa",
+        "deskripsi": "Bantal Sofa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 692998
+    },
+    {
+        "id": 10,
+        "nama_produk": "Bantal Sofa",
+        "deskripsi": "Bantal Sofa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1126989
+    },
+    {
+        "id": 11,
+        "nama_produk": "Jam Dinding",
+        "deskripsi": "Jam Dinding berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 473896
+    },
+    {
+        "id": 12,
+        "nama_produk": "Water Heater",
+        "deskripsi": "Water Heater berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1456278
+    },
+    {
+        "id": 13,
+        "nama_produk": "Kasur Lipat",
+        "deskripsi": "Kasur Lipat berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1529568
+    },
+    {
+        "id": 14,
+        "nama_produk": "Cermin Dekoratif",
+        "deskripsi": "Cermin Dekoratif berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 161854
+    },
+    {
+        "id": 15,
+        "nama_produk": "Microwave Oven",
+        "deskripsi": "Microwave Oven berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 402404
+    },
+    {
+        "id": 16,
+        "nama_produk": "Gorden Polos",
+        "deskripsi": "Gorden Polos berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1379824
+    },
+    {
+        "id": 17,
+        "nama_produk": "Lampu LED",
+        "deskripsi": "Lampu LED berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1128507
+    },
+    {
+        "id": 18,
+        "nama_produk": "Piring Keramik",
+        "deskripsi": "Piring Keramik berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1792760
+    },
+    {
+        "id": 19,
+        "nama_produk": "Jam Dinding",
+        "deskripsi": "Jam Dinding berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1971481
+    },
+    {
+        "id": 20,
+        "nama_produk": "Kursi Bar",
+        "deskripsi": "Kursi Bar berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 313199
+    },
+    {
+        "id": 21,
+        "nama_produk": "Tempat Tidur",
+        "deskripsi": "Tempat Tidur berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 577171
+    },
+    {
+        "id": 22,
+        "nama_produk": "Rak Sepatu",
+        "deskripsi": "Rak Sepatu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 720352
+    },
+    {
+        "id": 23,
+        "nama_produk": "Meja TV",
+        "deskripsi": "Meja TV berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 639359
+    },
+    {
+        "id": 24,
+        "nama_produk": "Hiasan Dinding",
+        "deskripsi": "Hiasan Dinding berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 373884
+    },
+    {
+        "id": 25,
+        "nama_produk": "Bean Bag",
+        "deskripsi": "Bean Bag berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1932313
+    },
+    {
+        "id": 26,
+        "nama_produk": "Penggorengan",
+        "deskripsi": "Penggorengan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 192696
+    },
+    {
+        "id": 27,
+        "nama_produk": "Lemari Dapur",
+        "deskripsi": "Lemari Dapur berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 99842
+    },
+    {
+        "id": 28,
+        "nama_produk": "Lampu Gantung",
+        "deskripsi": "Lampu Gantung berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 184683
+    },
+    {
+        "id": 29,
+        "nama_produk": "Karpet Ruang Tamu",
+        "deskripsi": "Karpet Ruang Tamu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 112738
+    },
+    {
+        "id": 30,
+        "nama_produk": "AC Portable",
+        "deskripsi": "AC Portable berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1040284
+    },
+    {
+        "id": 31,
+        "nama_produk": "Jam Dinding",
+        "deskripsi": "Jam Dinding berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 470273
+    },
+    {
+        "id": 32,
+        "nama_produk": "Gorden Polos",
+        "deskripsi": "Gorden Polos berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 179669
+    },
+    {
+        "id": 33,
+        "nama_produk": "Kulit Asli Sofa",
+        "deskripsi": "Kulit Asli Sofa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 652481
+    },
+    {
+        "id": 34,
+        "nama_produk": "Gorden Polos",
+        "deskripsi": "Gorden Polos berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1982281
+    },
+    {
+        "id": 35,
+        "nama_produk": "Meja Rapat",
+        "deskripsi": "Meja Rapat berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 963422
+    },
+    {
+        "id": 36,
+        "nama_produk": "Mesin Cuci",
+        "deskripsi": "Mesin Cuci berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 482576
+    },
+    {
+        "id": 37,
+        "nama_produk": "Kursi Goyang",
+        "deskripsi": "Kursi Goyang berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1873161
+    },
+    {
+        "id": 38,
+        "nama_produk": "Piring Keramik",
+        "deskripsi": "Piring Keramik berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1416650
+    },
+    {
+        "id": 39,
+        "nama_produk": "Kursi Gaming",
+        "deskripsi": "Kursi Gaming berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 889410
+    },
+    {
+        "id": 40,
+        "nama_produk": "Penggorengan",
+        "deskripsi": "Penggorengan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 392815
+    },
+    {
+        "id": 41,
+        "nama_produk": "Penggorengan",
+        "deskripsi": "Penggorengan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 777532
+    },
+    {
+        "id": 42,
+        "nama_produk": "Meja Rapat",
+        "deskripsi": "Meja Rapat berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 336531
+    },
+    {
+        "id": 43,
+        "nama_produk": "Bantal Sofa",
+        "deskripsi": "Bantal Sofa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1331263
+    },
+    {
+        "id": 44,
+        "nama_produk": "Dispenser Air",
+        "deskripsi": "Dispenser Air berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 544425
+    },
+    {
+        "id": 45,
+        "nama_produk": "Kursi Ergonomis",
+        "deskripsi": "Kursi Ergonomis berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 963414
+    },
+    {
+        "id": 46,
+        "nama_produk": "Lemari Es",
+        "deskripsi": "Lemari Es berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 394326
+    },
+    {
+        "id": 47,
+        "nama_produk": "Setrika Listrik",
+        "deskripsi": "Setrika Listrik berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 107577
+    },
+    {
+        "id": 48,
+        "nama_produk": "Piring Keramik",
+        "deskripsi": "Piring Keramik berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1945004
+    },
+    {
+        "id": 49,
+        "nama_produk": "Mesin Cuci",
+        "deskripsi": "Mesin Cuci berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1317449
+    },
+    {
+        "id": 50,
+        "nama_produk": "Microwave Oven",
+        "deskripsi": "Microwave Oven berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 523934
+    },
+    {
+        "id": 51,
+        "nama_produk": "Meja Makan",
+        "deskripsi": "Meja Makan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1904188
+    },
+    {
+        "id": 52,
+        "nama_produk": "Kasur Busa",
+        "deskripsi": "Kasur Busa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 890560
+    },
+    {
+        "id": 53,
+        "nama_produk": "Meja Makan",
+        "deskripsi": "Meja Makan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 845925
+    },
+    {
+        "id": 54,
+        "nama_produk": "Meja TV",
+        "deskripsi": "Meja TV berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1507978
+    },
+    {
+        "id": 55,
+        "nama_produk": "Hiasan Dinding",
+        "deskripsi": "Hiasan Dinding berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1258759
+    },
+    {
+        "id": 56,
+        "nama_produk": "Karpet Ruang Tamu",
+        "deskripsi": "Karpet Ruang Tamu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1836034
+    },
+    {
+        "id": 57,
+        "nama_produk": "Meja TV",
+        "deskripsi": "Meja TV berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1341641
+    },
+    {
+        "id": 58,
+        "nama_produk": "Rice Cooker",
+        "deskripsi": "Rice Cooker berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1683267
+    },
+    {
+        "id": 59,
+        "nama_produk": "Meja Makan",
+        "deskripsi": "Meja Makan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1119160
+    },
+    {
+        "id": 60,
+        "nama_produk": "Meja Makan",
+        "deskripsi": "Meja Makan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 1867279
+    },
+    {
+        "id": 61,
+        "nama_produk": "Kipas Angin",
+        "deskripsi": "Kipas Angin berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 1036692
+    },
+    {
+        "id": 62,
+        "nama_produk": "Bantal Sofa",
+        "deskripsi": "Bantal Sofa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 748254
+    },
+    {
+        "id": 63,
+        "nama_produk": "Mesin Cuci",
+        "deskripsi": "Mesin Cuci berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 711487
+    },
+    {
+        "id": 64,
+        "nama_produk": "Vacuum Cleaner",
+        "deskripsi": "Vacuum Cleaner berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1776671
+    },
+    {
+        "id": 65,
+        "nama_produk": "Kasur Busa",
+        "deskripsi": "Kasur Busa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 76321
+    },
+    {
+        "id": 66,
+        "nama_produk": "Kursi Gaming",
+        "deskripsi": "Kursi Gaming berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 559884
+    },
+    {
+        "id": 67,
+        "nama_produk": "Meja Rapat",
+        "deskripsi": "Meja Rapat berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 823728
+    },
+    {
+        "id": 68,
+        "nama_produk": "Hiasan Dinding",
+        "deskripsi": "Hiasan Dinding berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 1303113
+    },
+    {
+        "id": 69,
+        "nama_produk": "Blender Multifungsi",
+        "deskripsi": "Blender Multifungsi berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 307988
+    },
+    {
+        "id": 70,
+        "nama_produk": "Microwave Oven",
+        "deskripsi": "Microwave Oven berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 129210
+    },
+    {
+        "id": 71,
+        "nama_produk": "Karpet Ruang Tamu",
+        "deskripsi": "Karpet Ruang Tamu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1615448
+    },
+    {
+        "id": 72,
+        "nama_produk": "Penghisap Debu",
+        "deskripsi": "Penghisap Debu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 1531081
+    },
+    {
+        "id": 73,
+        "nama_produk": "Vacuum Cleaner",
+        "deskripsi": "Vacuum Cleaner berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 461925
+    },
+    {
+        "id": 74,
+        "nama_produk": "Karpet Ruang Tamu",
+        "deskripsi": "Karpet Ruang Tamu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 201139
+    },
+    {
+        "id": 75,
+        "nama_produk": "Vacuum Cleaner",
+        "deskripsi": "Vacuum Cleaner berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 684115
+    },
+    {
+        "id": 76,
+        "nama_produk": "Bean Bag",
+        "deskripsi": "Bean Bag berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 727146
+    },
+    {
+        "id": 77,
+        "nama_produk": "Rice Cooker",
+        "deskripsi": "Rice Cooker berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1902152
+    },
+    {
+        "id": 78,
+        "nama_produk": "Microwave Oven",
+        "deskripsi": "Microwave Oven berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1748835
+    },
+    {
+        "id": 79,
+        "nama_produk": "Lampu Gantung",
+        "deskripsi": "Lampu Gantung berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 1263646
+    },
+    {
+        "id": 80,
+        "nama_produk": "Tempat Tidur",
+        "deskripsi": "Tempat Tidur berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 713696
+    },
+    {
+        "id": 81,
+        "nama_produk": "Rak Buku",
+        "deskripsi": "Rak Buku berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 386696
+    },
+    {
+        "id": 82,
+        "nama_produk": "Panci Anti Lengket",
+        "deskripsi": "Panci Anti Lengket berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 731383
+    },
+    {
+        "id": 83,
+        "nama_produk": "Meja Rapat",
+        "deskripsi": "Meja Rapat berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 395089
+    },
+    {
+        "id": 84,
+        "nama_produk": "Kursi Bar",
+        "deskripsi": "Kursi Bar berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 1971952
+    },
+    {
+        "id": 85,
+        "nama_produk": "Meja Lipat",
+        "deskripsi": "Meja Lipat berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1762842
+    },
+    {
+        "id": 86,
+        "nama_produk": "Cermin Dekoratif",
+        "deskripsi": "Cermin Dekoratif berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 601068
+    },
+    {
+        "id": 87,
+        "nama_produk": "Dispenser Air",
+        "deskripsi": "Dispenser Air berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1537008
+    },
+    {
+        "id": 88,
+        "nama_produk": "Meja Makan",
+        "deskripsi": "Meja Makan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1624472
+    },
+    {
+        "id": 89,
+        "nama_produk": "Rak Sudut",
+        "deskripsi": "Rak Sudut berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1896330
+    },
+    {
+        "id": 90,
+        "nama_produk": "Lemari Dapur",
+        "deskripsi": "Lemari Dapur berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 828421
+    },
+    {
+        "id": 91,
+        "nama_produk": "Penggorengan",
+        "deskripsi": "Penggorengan berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1785355
+    },
+    {
+        "id": 92,
+        "nama_produk": "Kursi Gaming",
+        "deskripsi": "Kursi Gaming berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1986211
+    },
+    {
+        "id": 93,
+        "nama_produk": "Bantal Sofa",
+        "deskripsi": "Bantal Sofa berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Perlengkapan Rumah",
+        "harga": 617328
+    },
+    {
+        "id": 94,
+        "nama_produk": "Rice Cooker",
+        "deskripsi": "Rice Cooker berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 801682
+    },
+    {
+        "id": 95,
+        "nama_produk": "Lemari Pakaian",
+        "deskripsi": "Lemari Pakaian berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 1267134
+    },
+    {
+        "id": 96,
+        "nama_produk": "Water Heater",
+        "deskripsi": "Water Heater berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Peralatan Dapur",
+        "harga": 685868
+    },
+    {
+        "id": 97,
+        "nama_produk": "Kipas Angin",
+        "deskripsi": "Kipas Angin berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Elektronik",
+        "harga": 1938675
+    },
+    {
+        "id": 98,
+        "nama_produk": "Penghisap Debu",
+        "deskripsi": "Penghisap Debu berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 192347
+    },
+    {
+        "id": 99,
+        "nama_produk": "Lampu Gantung",
+        "deskripsi": "Lampu Gantung berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Dekorasi",
+        "harga": 1837921
+    },
+    {
+        "id": 100,
+        "nama_produk": "Meja Belajar",
+        "deskripsi": "Meja Belajar berkualitas tinggi dengan desain modern dan harga terjangkau.",
+        "kategori": "Furniture",
+        "harga": 1460010
+    }
+]
