@@ -22,6 +22,9 @@ def handle_chat_cs():
     
     # Mengambil prompt dari user
     prompt = data["prompt"]
+
+    if prompt == '':
+        return jsonify({"error": "Invalid input. Please provide a valid question."}), 400
     
     # Memproses prompt menggunakan fungsi dari modul AI
     response = chat_customer_service(prompt)
