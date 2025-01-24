@@ -12,13 +12,15 @@ from dotenv import load_dotenv
 # Load .env file
 load_dotenv()
 
+# model embedding
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Muat model USE
-# embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
+
+# BUAT EMBEDDING DATA DISINI
+# JIKA INGIN MENGGUNAKAN DATA SENDIRI
+# UNCOMMENT CODE DIBAWAH DAN SESUAIKAN COLUMNNYA
 
 # product_data = [f"{product['nama_produk']} - {product['kategori']}" for product in products]
-
 # # Menghitung embedding untuk setiap teks produk
 # embeddings = model.encode(product_data, convert_to_tensor=True)  # untuk praktik yg lebih baik simpan hasil embedding ke database
 # np.save('product_embeddings.npy', embeddings)
@@ -31,7 +33,9 @@ def get_closest_product(prompt):
       new_products = json.load(json_file)
       products.extend(new_products)
 
+  # buka file embedding
   embeddings = np.load('./AI/product_embeddings.npy')
+
   # hitung embeding 
   input_embeding = model.encode(prompt, convert_to_tensor=True)
 

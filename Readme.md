@@ -55,7 +55,24 @@ cosine_sim = util.pytorch_cos_sim(input_embedding, product_embeddings)
 
 **Customizing Product Data**
 
-The product data used by the chatbot can be easily replaced with your own dataset. The current product data is stored in the product_data.json file. To update the product list, simply modify this file to include the products you want the chatbot to recognize and provide information about. Make sure to maintain the format of the product data for proper functionality.
+The product data used by the chatbot can be easily replaced with your own dataset. The current product data is stored in the product_data.json file. To update the product list, follow these steps:
+
+**1. Modify the product_data.json File:**
+
+    - Open the product_data.json file and add or update the product entries in the JSON format.
+    - Each product should contain the necessary fields such as product name, description, category, and price. Be sure to maintain the format to ensure proper functionality.
+
+**2. Update the Embedding Data in the Code:**
+
+    - The product embeddings, used for matching user queries with the closest products, are currently hard-coded in the system.
+    After modifying the product list, you will need to regenerate the embeddings for the new products. This can be done by running the embedding generation process in the AI/main.py or similar script, ensuring that the embeddings reflect the updated product data.
+    - You can modify the embeddings code to process the newly updated product_data.json file and store the embeddings for each product.
+
+**3. Regenerate Embeddings:**
+
+    - If the product list has changed significantly or if you added new products, you may need to regenerate the embeddings. This can be done by running the script responsible for generating sentence embeddings from the product data.
+    - The embeddings will be used to match user queries to the most relevant products based on similarity scores.
+
 
 4. Flask Web Server
 
