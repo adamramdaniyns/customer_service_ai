@@ -5,60 +5,33 @@ from sentence_transformers import util
 from sentence_transformers import SentenceTransformer, util
 import torch
 import google.generativeai as genai
+import os
+import numpy as np
+from dotenv import load_dotenv
 
-
-# Daftar contoh nama produk
-nama_produk_list = [
-    "Kursi Ergonomis", "Meja Kantor", "Lampu Meja", "Rak Buku", "Sofa Minimalis",
-    "Kasur Lipat", "Lemari Pakaian", "Meja Belajar", "Karpet Ruang Tamu", "Kursi Goyang",
-    "Meja Rapat", "Cermin Dekoratif", "Lampu Gantung", "Gorden Polos", "Bantal Sofa",
-    "Selimut Hangat", "Jam Dinding", "Vas Bunga", "Meja TV", "Bean Bag",
-    "Kursi Gaming", "Rak Sepatu", "Hiasan Dinding", "Lemari Dapur", "Tempat Tidur",
-    "Kursi Bar", "Meja Makan", "Rak Sudut", "Piring Keramik", "Gelas Kaca",
-    "Kompor Gas", "Dispenser Air", "Setrika Listrik", "Penghisap Debu", "AC Portable",
-    "Kipas Angin", "Penyaring Udara", "Mesin Cuci", "Kulit Asli Sofa", "Panci Anti Lengket",
-    "Blender Multifungsi", "Rice Cooker", "Penggorengan", "Microwave Oven", "Vacuum Cleaner",
-    "Water Heater", "Lemari Es", "Lampu LED", "Meja Lipat", "Kasur Busa"
-]
-
-# Daftar contoh kategori
-kategori_list = ["Furniture", "Elektronik", "Dekorasi", "Peralatan Dapur", "Perlengkapan Rumah"]
-
-# Fungsi untuk membuat deskripsi produk
-def generate_description(nama):
-    return f"{nama} berkualitas tinggi dengan desain modern dan harga terjangkau."
-
-# Membuat array produk
-products = []
-for i in range(1, 101):  # Loop untuk membuat 100 produk
-    nama_produk = random.choice(nama_produk_list)
-    kategori = random.choice(kategori_list)
-    harga = random.randint(50000, 2000000)  # Harga antara 50 ribu - 2 juta
-    produk = {
-        "id": i,
-        "nama_produk": nama_produk,
-        "deskripsi": generate_description(nama_produk),
-        "kategori": kategori,
-        "harga": harga
-    }
-    products.append(produk)
-
-# Simpan hasil ke dalam array JSON
-products_json = json.dumps(products, indent=4)
+# Load .env file
+load_dotenv()
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Muat model USE
 # embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
 
-product_names = [product["nama_produk"] for product in products]
+# product_data = [f"{product['nama_produk']} - {product['kategori']}" for product in products]
 
-# Menghitung embedding untuk setiap teks produk
-embeddings = model.encode(product_names, convert_to_tensor=True)
-# Menghitung cosine similarity antar embeddings
-cosine_sim = cosine_similarity(embeddings)
+# # Menghitung embedding untuk setiap teks produk
+# embeddings = model.encode(product_data, convert_to_tensor=True)  # untuk praktik yg lebih baik simpan hasil embedding ke database
+# np.save('product_embeddings.npy', embeddings)
+
 
 def get_closest_product(prompt):
+  products = []
+
+  with open('./AI/product_data.json', 'r') as json_file:
+      new_products = json.load(json_file)
+      products.extend(new_products)
+
+  embeddings = np.load('./AI/product_embeddings.npy')
   # hitung embeding 
   input_embeding = model.encode(prompt, convert_to_tensor=True)
 
@@ -76,7 +49,7 @@ def get_closest_product(prompt):
 # sebelum dikirimkan ke model AI yg bertugas untuk menjelaskan produk
 # atau yang membuatkan orderan, input user dicek dlu oleh model AI khusus
 
-KEY_API_GEMINI="YOUR_GEMINI_KEY"
+KEY_API_GEMINI=os.getenv('GEMINI_KEY')
 
 genai.configure(api_key=KEY_API_GEMINI)
 model_ai = genai.GenerativeModel("gemini-1.5-flash")
@@ -182,6 +155,11 @@ def agent_taking_order(prompt):
             }},
             "message": "<jumlah> {closest_product['nama_produk']} berhasil ditambahkan ke keranjang"
         }}
+
+        3. Jika user memesan 2 atau lebih produk, jawab dengan format JSON serpeti ini:
+        {{
+            "message": "Saat ini, sistem kami hanya dapat memproses pesanan untuk satu produk pada satu waktu. Kami mohon untuk membuat pesanan secara terpisah untuk setiap produk. Terima kasih atas pengertiannya."
+        }}
         """
     )
 
@@ -193,7 +171,12 @@ def agent_taking_order(prompt):
     # Bersihkan backticks dan bagian yang tidak perlu
     cleaned_response = response.text.split("```json")[1].split("```")[0].strip()
     json_response = json.loads(cleaned_response)
-    
+
+    if json_response["order"]:
+      # simpan data order pada database disini
+      # disarankan menggunakan asynchronous agar response AI tidak tertahan.
+      # code here
+      
     return json_response
 
 def chat_customer_service(prompt):
@@ -204,26 +187,3 @@ def chat_customer_service(prompt):
     return agent_taking_order(prompt)['message']
 
   return clasification_purpose
-  
-# Fungsi utama untuk berinteraksi dengan terminal
-def main():
-    print("Selamat datang di Customer Service!")
-    print("Ketikkan pertanyaan atau perintah Anda (ketik 'keluar' untuk keluar):")
-
-    while True:
-        # Memunculkan input di terminal
-        user_input = input("Anda: ")
-
-        # Berhenti jika pengguna mengetik 'keluar'
-        if user_input.lower() == 'keluar':
-            print("Terima kasih telah menggunakan Customer Service. Sampai jumpa!")
-            break
-
-        # Memanggil fungsi chat_customer_service dan mencetak responsnya
-        response = chat_customer_service(user_input)
-        print("AI:", response)
-
-
-# Jalankan program utama
-if __name__ == "__main__":
-    main()

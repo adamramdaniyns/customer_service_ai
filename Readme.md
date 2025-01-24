@@ -55,4 +55,30 @@ cosine_sim = util.pytorch_cos_sim(input_embedding, product_embeddings)
 
 **Customizing Product Data**
 
-The product data used by the chatbot can be easily replaced with your own dataset. The current product data is stored in the products variable. To update the product list, simply modify this file to include the products you want the chatbot to recognize and provide information about. Make sure to maintain the format of the product data for proper functionality.
+The product data used by the chatbot can be easily replaced with your own dataset. The current product data is stored in the product_data.json file. To update the product list, simply modify this file to include the products you want the chatbot to recognize and provide information about. Make sure to maintain the format of the product data for proper functionality.
+
+4. Flask Web Server
+
+This application also uses **Flask** to provide an API for interacting with the chatbot. Flask handles incoming user requests through HTTP endpoints and routes them to the chatbot for further processing. Flask enables users to interact with the chatbot via a simple REST API.
+
+- Route /chat-cs: This endpoint accepts POST requests with JSON data containing the user's prompt. Flask will call the chat_customer_service(prompt) function to process the request and return the chatbot's response in JSON format.
+
+Example API request using **POST**:
+
+```bash
+curl -X POST http://localhost:5000/chat-cs -H "Content-Type: application/json" -d '{"prompt": "What is the price of the TV table?"}'
+```
+
+- Route /: The root endpoint that simply returns the message "Hello, Flask!" to ensure the server is running correctly.
+
+**Running the Flask Server:**
+- To start the Flask server, simply run the following command:
+
+```bash
+python app.py
+```
+
+Once the server is up, you can access it at http://localhost:5000.
+
+With Flask, users can send requests to get product information or process orders via the API, while the AI model handles natural language processing and response generation.
+
